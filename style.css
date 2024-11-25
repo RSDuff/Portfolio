@@ -1,0 +1,27 @@
+.navbar{
+    /* margin: 4rem; */
+}
+#about{
+    margin: 4rem;
+    padding: 6rem;
+}
+
+#contact{
+    margin: 4rem;
+    padding: 6rem;
+}
+
+.footer a{
+    text-decoration: none;
+    color: white;
+    padding: 4px;
+}
+.footer{
+    background-color: black;
+    color: white;
+    /* margin: 4rem; */
+    padding: 6rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
