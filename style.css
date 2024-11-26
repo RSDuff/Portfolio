@@ -2,12 +2,16 @@
     /* margin: 4rem; */
 }
 #about{
-    margin: 4rem;
+    background-color: black;
+    color: white;
+    /* margin: 4rem; */
     padding: 6rem;
 }
 
 #contact{
-    margin: 4rem;
+    background-color: black;
+    color: white;
+    /* margin: 4rem; */
     padding: 6rem;
 }
 
