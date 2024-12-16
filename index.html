@@ -13,13 +13,23 @@
     crossorigin="anonymous"></script>
 
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Albert+Sans:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
 </head>
 
 <body>
+  
   <!-- #region Navbar -->
-  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+ 
+  <nav class="navbar navbar-expand-lg bg-body-tertiary scott-navbar">
     <div class="container-fluid bg-black">
-      <a class="navbar-brand text-white fs-1" href="#">Scott Duff</a>
+      <a class="navbar-brand text-white fs-1 text-heading" href="#">Scott Duff</a>
       <button class="navbar-toggler bg-white" type="button" data-bs-toggle="collapse"
         data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
         aria-label="Toggle navigation">
@@ -28,34 +38,34 @@
       <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
         <ul class="navbar-nav mb-2 mb-lg-0 ">
           <li class="nav-item">
-            <a class="nav-link btn btn-outline-danger text-white" aria-current="page" href="#">Home</a>
+            <a class="nav-link btn btn-outline-danger text-white text-paragraph" aria-current="page" href="#">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link btn btn-outline-danger text-white" href="#about">About</a>
+            <a class="nav-link btn btn-outline-danger text-white text-paragraph" href="#about">About</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link btn btn-outline-danger text-white" href="#contact">Contact</a>
+            <a class="nav-link btn btn-outline-danger text-white text-paragraph" href="#contact">Contact</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link btn btn-outline-danger text-white" target="_blank" href="Assets/pdfs/Resume_Scott_Duff_Original.pdf">Resume</a>
+            <a class="nav-link btn btn-outline-danger text-white text-paragraph" target="_blank" href="Assets/pdfs/Resume_Scott_Duff_Original.pdf">Resume</a>
           </li>
         </ul>
       </div>
     </div>
   </nav>
   <!-- #endregion -->
+  <div class="about-container"
   <div id="about">
-    <h1>About</h1>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. elit animi repellat corporis tempora. Rem ea ipsa totam
-      consectetur cupiditate ab expedita cumque aliquid reprehenderit earum. Possimus repudiandae odio soluta ratione.
+    <!-- <h1>About</h1> -->
+    <p class="text-paragraph text-paragraph-hero"> Hey I'm Scott Duff, and I'm passionate about creating thoughtful and engaging designs, with a focus on blending creativity with functionality.
     </p>
   </div>
-
+  <div class="scott-container">
   <section>
-    <h1 id = "projects"> Projects </h1>
+    <h1 class = "projects text-heading"> Projects </h1>
     <div class="project-cards">
       <!-- #region Depthpoint -->
-      <div class="card mx-auto" style="width: 32rem; height: 32rem; margin-bottom: 1rem;">
+      <div class="card" style="width: 32rem; height: 32rem; margin-bottom: 1rem;">
         <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
           <div class="carousel-indicators">
             <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
@@ -67,13 +77,13 @@
           </div>
           <div class="carousel-inner">
             <div class="carousel-item active">
-              <img src="Tree.jpg" class="d-block w-100" alt="...">
+              <img src="Assets/Golem/Depthpoint_PromoThumbnail.png" class="d-block w-100" alt="...">
             </div>
             <div class="carousel-item">
-              <img src="Tree.jpg" class="d-block w-100" alt="...">
+              <img src="Assets/Golem/Area2_PromoSS2.png" class="d-block w-100" alt="...">
             </div>
             <div class="carousel-item">
-              <img src="Tree.jpg" class="d-block w-100" alt="...">
+              <img src="Assets/Golem/Area1_PromoSS.png" class="d-block w-100" alt="...">
             </div>
           </div>
           <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
@@ -87,16 +97,17 @@
             <span class="visually-hidden">Next</span>
           </button>
         </div>
-        <div class="card-body bg-black">
-          <h5 class="card-title text-white">Depthpoint</h5>
-          <p class="card-text text-white">Some quick example text to build on the card title and make up the bulk of the
-            card's content.</p>
-          <a href="#" class="btn btn-danger float-end">Project Details</a>
+        <div class="card-body bg-black d-flex flex-column">
+          <h5 class="card-title text-white text-heading">Depthpoint</h5>
+          <p class="card-text text-white text-paragraph">A sponsored project with mentorship by Certain Affinity</p>
+          <div class="mt-auto text-right w-100">
+            <a href="#" class="btn btn-danger wd-40 float-end">Project Details</a>
+          </div>
         </div>
       </div>
       <!-- #endregion -->
       <!-- #region Golem -->
-      <div class="card mx-auto" style="width: 32rem; height: 32rem; margin-bottom: 1rem;">
+      <div class="card" style="width: 32rem; height: 32rem; margin-bottom: 1rem;">
         <div id="carouselExampleIndicators2" class="carousel slide" data-bs-ride="carousel">
           <div class="carousel-indicators">
             <button type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide-to="0" class="active"
@@ -129,15 +140,17 @@
           </button>
         </div>
         <div class="card-body bg-black">
-          <h5 class="card-title text-white">Golem</h5>
-          <p class="card-text text-white">Some quick example text to build on the card title and make up the bulk of the
+          <h5 class="card-title text-white text-heading">Golem</h5>
+          <p class="card-text text-white text-paragraph">Some quick example text to build on the card title and make up the bulk of the
             card's content.</p>
-          <a href="#" class="btn btn-danger float-end">Project Details</a>
+            <div class="mt-auto text-right w-100">
+              <a href="#" class="btn btn-danger wd-40 float-end text-paragraph">Project Details</a>
+            </div>
         </div>
       </div>
     <!-- #endregion -->
       <!-- #region Card 3 -->
-    <div class="card mx-auto" style="width: 32rem; height: 32rem; margin-bottom: 1rem;">
+    <div class="card" style="width: 32rem; height: 32rem; margin-bottom: 1rem;">
       <div id="carouselExampleIndicators3" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-indicators">
           <button type="button" data-bs-target="#carouselExampleIndicators3" data-bs-slide-to="0" class="active"
@@ -170,10 +183,12 @@
         </button>
       </div>
       <div class="card-body bg-black">
-        <h5 class="card-title text-white">Depthpoint</h5>
-        <p class="card-text text-white">Some quick example text to build on the card title and make up the bulk of the
+        <h5 class="card-title text-white text-heading">Shark Tank</h5>
+        <p class="card-text text-white text-paragraph">Some quick example text to build on the card title and make up the bulk of the
           card's content.</p>
-        <a href="#" class="btn btn-danger float-end">Project Details</a>
+        <div class="mt-auto text-right w-100">
+            <a href="#" class="btn btn-danger wd-40 float-end text-paragraph">Project Details</a>
+        </div>
       </div>
     </div>
     <!-- #endregion -->
@@ -188,22 +203,23 @@
       </p>
     </div>
   </div> -->
+</div>
 
   <footer class="footer" id="footer">
     <div class="footertext" id="footertext">
       <div>
-        <h2>Get In Touch!</h2>
-        <p>duff.scott.richard@gmail.com</p>
-        <p> Thanks for reaching the bottom of my page.
+        <h2 class="text-heading">Get In Touch!</h2>
+        <p class="text-paragraph">duff.scott.richard@gmail.com</p>
+        <p class="text-paragraph"> Thanks for reaching the bottom of my page.
           if you like what you see I look forward to hopefully 
           chatting with you!</p>
       </div>
   
       <div>
-        <h2>Socials</h2>
-        <a class=" bi bi-instagram" href="#"">Insta</a>
-        <a class=" bi bi-envelope" href="mailto: duff.scott.richard@gmail.com">Mail</a>
-        <a class=" bi bi-linkedin" href="https://www.linkedin.com/in/duffscott/"">LinkedIn</a>
+        <h2 class="text-heading">Socials</h2>
+        <!-- <a class=" bi bi-instagram" href="#""></a> -->
+        <a class=" bi bi-envelope" href="mailto: duff.scott.richard@gmail.com"></a>
+        <a class=" bi bi-linkedin" href="https://www.linkedin.com/in/duffscott/""></a>
       </div>
     </div>
     <p class = "copyright">&copy Scott Duff. All rights reserved</p>

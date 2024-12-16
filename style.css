@@ -1,5 +1,31 @@
-.navbar{
+
+.scott-navbar{
     /* margin: 4rem; */
+    position: sticky;
+    top: 0;
+    overflow: hidden;
+}
+.scott-container{
+    margin: 0rem 43rem 0rem 43rem;
+}
+.about-container{
+    margin: 0rem 35rem 0rem 35rem;
+}
+
+.text-heading{
+    font-family: "Oswald" !important;
+}
+
+.text-paragraph{
+    font-family: "Albert Sans" !important;
+}
+
+.text-paragraph-hero{
+    font-size: 24px;
+}
+
+.wd-40{
+    width: 40%;
 }
 #about{
     background-color: white;
@@ -11,7 +37,7 @@
 #projects{
     background-color: white;
     color: black;
-    margin: 0rem 43rem 0rem 43rem;
+    /* margin: 0rem 43rem 0rem 43rem; */
     /* padding: 6rem; */
     /* text-align: center; */
 }
@@ -26,6 +52,10 @@
     margin-left: auto;
     margin-right: auto;
     
+}
+
+.bi {
+    font-size: 20px;
 }
 
 .footer a{
