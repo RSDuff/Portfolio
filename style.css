@@ -2,17 +2,30 @@
     /* margin: 4rem; */
 }
 #about{
-    background-color: black;
-    color: white;
+    background-color: white;
+    color: black;
     /* margin: 4rem; */
     padding: 6rem;
+    text-align: center;
+}
+#projects{
+    background-color: white;
+    color: black;
+    margin: 0rem 43rem 0rem 43rem;
+    /* padding: 6rem; */
+    /* text-align: center; */
 }
 
 #contact{
-    background-color: black;
-    color: white;
+    background-color: white;
+    color: black;
     /* margin: 4rem; */
     padding: 6rem;
+    /* margin: 0rem 37rem 0rem 37rem; */
+    max-width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    
 }
 
 .footer a{
@@ -23,9 +36,22 @@
 .footer{
     background-color: black;
     color: white;
-    /* margin: 4rem; */
-    padding: 6rem;
+}
+
+.footertext{
+    padding: 3rem;
     display: grid;
+    gap: 3rem;
     grid-template-columns: 1fr 1fr;
+    margin: 0rem 40rem 0rem 40rem;
+}
+.copyright{
+    margin-top: 10px; /* Moves the copyright outside and below the grid */
+    margin-bottom: 0 !important; 
+    background-color: black;
+    font-size: 14px;
+    text-align: center;
+    /* padding: 10px 0; */
+    width: 100%;
 }
 

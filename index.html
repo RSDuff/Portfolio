@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Scott Duff</title>
   <link rel="stylesheet" href="style.css">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
@@ -25,8 +25,8 @@
         aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+      <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+        <ul class="navbar-nav mb-2 mb-lg-0 ">
           <li class="nav-item">
             <a class="nav-link btn btn-outline-danger text-white" aria-current="page" href="#">Home</a>
           </li>
@@ -37,18 +37,25 @@
             <a class="nav-link btn btn-outline-danger text-white" href="#contact">Contact</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link btn btn-outline-danger text-white" href="#">Resume</a>
+            <a class="nav-link btn btn-outline-danger text-white" target="_blank" href="Assets/pdfs/Resume_Scott_Duff_Original.pdf">Resume</a>
           </li>
         </ul>
       </div>
     </div>
   </nav>
   <!-- #endregion -->
+  <div id="about">
+    <h1>About</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. elit animi repellat corporis tempora. Rem ea ipsa totam
+      consectetur cupiditate ab expedita cumque aliquid reprehenderit earum. Possimus repudiandae odio soluta ratione.
+    </p>
+  </div>
 
   <section>
+    <h1 id = "projects"> Projects </h1>
     <div class="project-cards">
       <!-- #region Depthpoint -->
-      <div class="card mx-auto" style="width: 32rem; height: 32rem;">
+      <div class="card mx-auto" style="width: 32rem; height: 32rem; margin-bottom: 1rem;">
         <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
           <div class="carousel-indicators">
             <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
@@ -89,7 +96,7 @@
       </div>
       <!-- #endregion -->
       <!-- #region Golem -->
-      <div class="card mx-auto" style="width: 32rem; height: 32rem;">
+      <div class="card mx-auto" style="width: 32rem; height: 32rem; margin-bottom: 1rem;">
         <div id="carouselExampleIndicators2" class="carousel slide" data-bs-ride="carousel">
           <div class="carousel-indicators">
             <button type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide-to="0" class="active"
@@ -130,7 +137,7 @@
       </div>
     <!-- #endregion -->
       <!-- #region Card 3 -->
-    <div class="card mx-auto" style="width: 32rem; height: 32rem;">
+    <div class="card mx-auto" style="width: 32rem; height: 32rem; margin-bottom: 1rem;">
       <div id="carouselExampleIndicators3" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-indicators">
           <button type="button" data-bs-target="#carouselExampleIndicators3" data-bs-slide-to="0" class="active"
@@ -172,35 +179,35 @@
     <!-- #endregion -->
     </div>
   </section>
-
-  <div id="about">
-    <h1>About</h1>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. elit animi repellat corporis tempora. Rem ea ipsa totam
-      consectetur cupiditate ab expedita cumque aliquid reprehenderit earum. Possimus repudiandae odio soluta ratione.
-    </p>
-  </div>
-
+<!-- 
   <div id="contact">
-    <h1>Contact</h1>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. elit animi repellat corporis tempora. Rem ea ipsa totam
-      consectetur cupiditate ab expedita cumque aliquid reprehenderit earum. Possimus repudiandae odio soluta ratione.
-    </p>
-  </div>
+    <div class ="mx-auto" style="width: 32rem; height: 32rem;">
+      <h1>Contact</h1>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. elit animi repellat corporis tempora. Rem ea ipsa totam
+        consectetur cupiditate ab expedita cumque aliquid reprehenderit earum. Possimus repudiandae odio soluta ratione.
+      </p>
+    </div>
+  </div> -->
 
   <footer class="footer" id="footer">
-    <div>
-      <h2>Get In Touch!</h2>
-      <p>101581578@georgebrown.ca</p>
-      <p> Thanks for reaching the bottom of my page. If you like what you see I look forward to hopfully chatting with
-        you!</p>
+    <div class="footertext" id="footertext">
+      <div>
+        <h2>Get In Touch!</h2>
+        <p>duff.scott.richard@gmail.com</p>
+        <p> Thanks for reaching the bottom of my page.
+          if you like what you see I look forward to hopefully 
+          chatting with you!</p>
+      </div>
+  
+      <div>
+        <h2>Socials</h2>
+        <a class=" bi bi-instagram" href="#"">Insta</a>
+        <a class=" bi bi-envelope" href="mailto: duff.scott.richard@gmail.com">Mail</a>
+        <a class=" bi bi-linkedin" href="https://www.linkedin.com/in/duffscott/"">LinkedIn</a>
+      </div>
     </div>
+    <p class = "copyright">&copy Scott Duff. All rights reserved</p>
 
-    <div>
-      <h2>Socials</h2>
-      <a class=" bi bi-instagram" href="#"">Insta</a>
-      <a class=" bi bi-envelope" href="#"">Mail</a>
-      <a class=" bi bi-linkedin" href="https://www.linkedin.com/in/duffscott/"">LinkedIn</a>
-    </div>
   </footer>
 </body>
 </html>
