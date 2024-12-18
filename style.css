@@ -5,12 +5,12 @@
     top: 0;
     overflow: hidden;
 }
-.scott-container{
+/* .scott-container{
     margin: 0rem 43rem 0rem 43rem;
-}
-.about-container{
+} */
+/* .about-container{
     margin: 0rem 35rem 0rem 35rem;
-}
+} */
 
 .text-heading{
     font-family: "Oswald" !important;
@@ -31,7 +31,11 @@
     background-color: white;
     color: black;
     /* margin: 4rem; */
-    padding: 6rem;
+    /* padding: 6rem; */
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
     text-align: center;
 }
 #projects{
